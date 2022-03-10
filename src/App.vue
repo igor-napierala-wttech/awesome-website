@@ -18,4 +18,13 @@ import HelloWorld from './components/HelloWorld.vue'
   color: #2c3e50;
   margin-top: 60px;
 }
+:root {
+  --block-header-text-color:#333333;
+  --block-header-description-text-color:#9ea4ae;
+  --block-text-color:#5c4b51;
+  --block-button-view-bgcolor:#ea4e4e;
+  --block-button-contact-border-color:#bdbdbd;
+  --block-burger-line-color:#333333;
+  --block-font:'Roboto Slab',serif;
+}
 </style>
