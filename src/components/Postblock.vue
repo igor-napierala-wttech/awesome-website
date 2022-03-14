@@ -25,7 +25,6 @@
   font-family: var(--font-family-text);
 }
 
-
 .top_image_post_block_Img_main{
   padding: 0px;
   margin: 0px;
@@ -81,11 +80,13 @@
   font-size: var(--size-blog-main-text);
   width: 80%;
 }
+
 .top_image_post_block_info_block_dots{
   color: var(--text-color-light);
   font-size: var(--size-blog-name-text);
   margin-top: 30px;
 }
+
 .top_image_post_block_info_block_name_link{
   text-decoration: none;
   color: var(--text-color-darkness);
@@ -108,8 +109,6 @@
   color: var(--selected-div-color);
 }
 
-
-
 .top_image_post_block_info_block_header_link,.top_image_post_block_info_block_date_link{
   text-decoration: none;
   color: var(--text-color-lightness);
@@ -120,4 +119,5 @@
 .top_image_post_block_info_block_header_link:hover,.top_image_post_block_info_block_date_link:hover{
   color: var(--text-color-light);
 }
+
 </style>
