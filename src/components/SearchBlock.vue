@@ -31,16 +31,14 @@
   position: relative;
   padding: 15px;
   padding-right: 35px;
-  border: 1px solid;
-  border-color: var(--text-color-lightness);
+  border: 1px solid var(--text-color-lightness);
   border-radius: 4px;
   transition: 0.25s;
 }
 
 .searchblock_form_inputtext:focus {
   outline: none;
-  border: 1px solid;
-  border-color: var(--selected-div-color);
+  border: 1px solid var(--selected-div-color);
 }
 
 .searchblock_form_button:hover {

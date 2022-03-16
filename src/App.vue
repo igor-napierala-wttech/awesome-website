@@ -4,6 +4,7 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import PostBlock from "./components/Postblock.vue";
 import SearchBlock from "./components/SearchBlock.vue";
+import AboutMe from "./components/AboutMe.vue";
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import SearchBlock from "./components/SearchBlock.vue";
   <HelloWorld msg="Awesome project" />
   <PostBlock />
   <SearchBlock />
+  <AboutMe />
 </template>
 
 <style>
