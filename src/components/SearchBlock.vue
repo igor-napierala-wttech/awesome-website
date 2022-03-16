@@ -20,9 +20,9 @@
   font-size: var(--size-blog-main-text);
   position: relative;
   margin-left: -35px;
-  border: 0px;
+  border: 0;
   background-color: var(--main-bgdiv-color);
-  padding-right: 0px;
+  padding-right: 0;
   transition: 0.1s;
 }
 
