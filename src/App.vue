@@ -5,6 +5,12 @@ import HelloWorld from "./components/HelloWorld.vue";
 import PostBlock from "./components/Postblock.vue";
 import SearchBlock from "./components/SearchBlock.vue";
 import AboutMe from "./components/AboutMe.vue";
+import Meta from "./components/META.vue";
+import MostPopular from "./components/MostPopular.vue";
+import PopularTags from "./components/PopularTags.vue";
+import MiniGallery from "./components/MiniGallery.vue";
+import Categories from "./components/Categories.vue";
+import RecentComments from "./components/RecentComments.vue";
 </script>
 
 <template>
@@ -12,7 +18,13 @@ import AboutMe from "./components/AboutMe.vue";
   <HelloWorld msg="Awesome project" />
   <PostBlock />
   <SearchBlock />
+  <MostPopular />
+  <Meta />
   <AboutMe />
+  <PopularTags />
+  <MiniGallery />
+  <Categories />
+  <RecentComments />
 </template>
 
 <style>
