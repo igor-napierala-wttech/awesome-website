@@ -62,9 +62,6 @@
 </template>
 
 <style scoped>
-* {
-  font-family: var(--font-family-text);
-}
 .sidebar_infoblock {
   text-align: left;
   display: block;
@@ -81,8 +78,7 @@
   margin-left: -20px;
   margin-bottom: 30px;
   padding-left: 20px;
-  border-left: 3px solid;
-  border-color: var(--selected-div-color);
+  border-left: 3px solid var(--selected-div-color);
 }
 
 .sidebar_infoblock_list {
@@ -95,6 +91,7 @@
   width: 100%;
   padding: 2px;
 }
+
 .sidebar_infoblock_list_option_link {
   transition: 0.2s;
   text-decoration: none;
@@ -102,6 +99,7 @@
   font-weight: 100;
   color: var(--text-color-darkness);
 }
+
 .sidebar_infoblock_list_option_link:hover {
   color: var(--selected-div-color);
 }
@@ -113,14 +111,17 @@
   margin-left: -2px;
   background-color: #ececec;
 }
+
 .sidebar_infoblock_list_option_link:hover
   .sidebar_infoblock_list_option_link_span {
   background-color: var(--selected-div-color);
   color: white;
 }
+
 .sidebar_infoblock_list_line {
   border-bottom: 1px solid #ececec;
 }
+
 .sidebar_infoblock_list_option {
   margin-top: 5px;
   margin-bottom: 5px;

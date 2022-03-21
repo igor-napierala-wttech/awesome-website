@@ -71,9 +71,6 @@
 </template>
 
 <style scoped>
-* {
-  font-family: var(--font-family-text);
-}
 .sidebar_infoblock {
   text-align: left;
   display: block;
@@ -90,8 +87,7 @@
   margin-left: -20px;
   margin-bottom: 30px;
   padding-left: 20px;
-  border-left: 3px solid;
-  border-color: var(--selected-div-color);
+  border-left: 3px solid var(--selected-div-color);
 }
 
 .sidebar_infoblock_list {
@@ -105,6 +101,7 @@
   float: left;
   border-radius: 100%;
 }
+
 .sidebar_infoblock_list_div_text {
   display: inline-block;
   width: calc(90% - 10px);
@@ -114,6 +111,7 @@
 .sidebar_infoblock_list_div_text_author {
   font-size: 17px;
 }
+
 .sidebar_infoblock_list_div_text_date {
   color: var(--text-color-lightness);
   font-size: 14px;
@@ -122,9 +120,11 @@
 .sidebar_infoblock_list_div_text_main {
   font-size: 14px;
 }
+
 .sidebar_infoblock_list_div {
   display: inline-block;
 }
+
 .sidebar_infoblock_list_option {
   margin-bottom: 40px;
 }

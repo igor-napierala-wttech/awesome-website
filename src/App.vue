@@ -28,6 +28,10 @@ import RecentComments from "./components/RecentComments.vue";
 </template>
 
 <style>
+* {
+  font-family: var(--font-family-text);
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

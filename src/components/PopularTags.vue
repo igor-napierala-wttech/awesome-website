@@ -51,9 +51,6 @@
 </template>
 
 <style scoped>
-* {
-  font-family: var(--font-family-text);
-}
 .sidebar_infoblock {
   text-align: left;
   display: block;
@@ -70,9 +67,9 @@
   margin-left: -20px;
   margin-bottom: 30px;
   padding-left: 20px;
-  border-left: 3px solid;
-  border-color: var(--selected-div-color);
+  border-left: 3px solid var(--selected-div-color);
 }
+
 .sidebar_infoblock_list {
   list-style-type: none;
   display: inline-block;
@@ -88,9 +85,11 @@
   font-size: 14px;
   transition: 0.2s;
 }
+
 .sidebar_infoblock_list_link:hover {
   background-color: var(--selected-div-color);
 }
+
 .sidebar_infoblock_list_option {
   margin: 5px 5px;
   width: auto;

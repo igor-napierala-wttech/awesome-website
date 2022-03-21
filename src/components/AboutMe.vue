@@ -29,13 +29,10 @@
 </template>
 
 <style scoped>
-* {
-  font-family: var(--font-family-text);
-}
-
 .sidebar_infoblock_content {
   display: flex;
 }
+
 .sidebar_infoblock {
   padding: 20px;
   width: calc(100% - 40px);
@@ -50,13 +47,13 @@
   margin-left: -20px;
   margin-bottom: 30px;
   padding-left: 20px;
-  border-left: 3px solid;
-  border-color: var(--selected-div-color);
+  border-left: 3px solid var(--selected-div-color);
 }
 
 .sidebar_infoblock_content {
   width: 100%;
 }
+
 .sidebar_infoblock_content_avatar {
   width: 25%;
 }
@@ -75,11 +72,13 @@
   font-weight: 700;
   margin-bottom: 20px;
 }
+
 .sidebar_infoblock_content_author_roles {
   color: var(--text-color-lightness);
   font-size: 14px;
   font-weight: 400;
 }
+
 .sidebar_infoblock_content_maintext {
   font-size: 14px;
   text-align: left;
