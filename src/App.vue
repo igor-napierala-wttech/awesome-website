@@ -19,9 +19,6 @@ import RecentComments from "./components/RecentComments.vue";
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <HelloWorld msg="Awesome project" />
-  <Blockimageleft />
-  <Blockimageright />
-  <Blockcarousel />
   <PostBlock />
   <SearchBlock />
   <MostPopular />
