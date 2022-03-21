@@ -5,25 +5,41 @@ import HelloWorld from "./components/HelloWorld.vue";
 import Blockimageleft from "./components/Block-image_left.vue";
 import Blockimageright from "./components/Block-image_right.vue";
 import Blockcarousel from "./components/Block-carousel.vue";
+import PostBlock from "./components/Postblock.vue";
+import SearchBlock from "./components/SearchBlock.vue";
+import AboutMe from "./components/AboutMe.vue";
+import Meta from "./components/META.vue";
+import MostPopular from "./components/MostPopular.vue";
+import PopularTags from "./components/PopularTags.vue";
+import MiniGallery from "./components/MiniGallery.vue";
+import Categories from "./components/Categories.vue";
+import RecentComments from "./components/RecentComments.vue";
+
 </script>
 
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
-  <div class="wrapper">
-      <header class="header">
-        <div class="header_inner"></div>
-      </header>
-      <div class="wrapper_inner">
-        <div class="content_inner">
   <Blockimageleft />
   <Blockimageright />
   <Blockcarousel />
-  </div>
-  </div>
-  </div>
+  <HelloWorld msg="Awesome project" />
+  <PostBlock />
+  <SearchBlock />
+  <MostPopular />
+  <Meta />
+  <AboutMe />
+  <PopularTags />
+  <MiniGallery />
+  <Categories />
+  <RecentComments />
+
 </template>
 
 <style>
+* {
+  font-family: var(--font-family-text);
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -32,6 +48,7 @@ import Blockcarousel from "./components/Block-carousel.vue";
   color: #2c3e50;
   margin-top: 60px;
 }
+
 :root {
   --main-bg-color: #f1f1f1;
   --main-bgdiv-color: #ffffff;
@@ -57,37 +74,5 @@ import Blockcarousel from "./components/Block-carousel.vue";
   --spacing-right-block-name-text: 0.1em;
   --spacing-right-block-info-text: 0.1em;
   --spacing-right-block-main-text: 0.1em;
-}
-* {
-  box-sizing: border-box;
-}
-html,
-body {
-  padding: 0;
-  margin: 0;
-}
-body {
-  position: relative;
-  background-color: var(--main-bg-color);
-  font-family: var(--font-family-text);
-  line-height: 1.6;
-  font-size: 17px;
-  color: var(--text-color-darkness);
-}
-.header {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 60px;
-  background-color: green;
-  z-index: 99998;
-  overflow: hidden;
-}
-.wrapper_inner {
-  margin: 3%;
-  position: relative;
-}
-.content_inner {
-  margin-left: 60px;
 }
 </style>
